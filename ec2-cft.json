@@ -62,6 +62,7 @@
 						"Key": "Name",
 						"Value": "Project_EC2_sg"
 					}]
+				"VpcId": "vpc-03c41b62"
 				}
 			},
 			"Instance": {
@@ -74,7 +75,6 @@
 						"Ref": "InstanceType"
 					},
 					"ImageId": "ami-b70554c8",
-					"VpcId": "vpc-03c41b62",
 					"SecurityGroupIds": [{
                             "Fn::GetAtt": [
                                 "InstanceSecurityGroup",
