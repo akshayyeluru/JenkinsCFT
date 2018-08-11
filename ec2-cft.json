@@ -61,7 +61,7 @@
 					"Tags": [{
 						"Key": "Name",
 						"Value": "Project_EC2_sg"
-					}]
+					}],
 				"VpcId": "vpc-03c41b62"
 				}
 			},
